@@ -1,0 +1,10 @@
+ultralytics
+torchvision
+torchmetrics
+kagglehub
+pillow
+matplotlib
+torch
+torchsummary
+tensorboard
+torchinfo
