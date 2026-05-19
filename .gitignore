@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Training outputs / model weights
+runs/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Generated helper files
+allfileshas.txt
+yolooutput.txt
+
+# Dataset / large data
+data/
+datasets/
+images/
+labels/
+
+# OS / editor
+.vscode/
+.DS_Store

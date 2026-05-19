@@ -1,0 +1,17 @@
+path: z:\Zavrsni rad\FInishedProject\yolo_dataset_baseline
+train: images/train
+val: images/val
+test: images/test
+nc: 11
+names:
+- angiodysplasia
+- erosion
+- stenosis
+- lymphangiectasia
+- lymph follicle
+- SMT
+- polyp-like
+- bleeding
+- erythema
+- foreign body
+- vein

@@ -1,0 +1,47 @@
+{
+  "project_root": "z:\\Zavrsni rad\\FInishedProject",
+  "dataset_root": "z:\\Zavrsni rad\\FInishedProject",
+  "image_dir": "z:\\Zavrsni rad\\FInishedProject\\SEE_AI_project_all_images\\SEE_AI_project_all_images",
+  "label_dir": "z:\\Zavrsni rad\\FInishedProject\\SEE_AI_project_all_txt\\SEE_AI_project_all_txt",
+  "group_size": 25,
+  "random_seed": 42,
+  "class_names": [
+    "angiodysplasia",
+    "erosion",
+    "stenosis",
+    "lymphangiectasia",
+    "lymph follicle",
+    "SMT",
+    "polyp-like",
+    "bleeding",
+    "erythema",
+    "foreign body",
+    "vein"
+  ],
+  "counts": {
+    "train": 12931,
+    "val": 3700,
+    "test": 1850
+  },
+  "negative_counts": {
+    "train": 4530,
+    "val": 1156,
+    "test": 505
+  },
+  "experiments": {
+    "bg15": {
+      "target_train_negative_ratio": 0.15,
+      "counts": {
+        "train": 9883,
+        "val": 3700,
+        "test": 1850
+      },
+      "negative_counts": {
+        "train": 1482,
+        "val": 1156,
+        "test": 505
+      },
+      "split_suffix": "_bg15"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+path: c:\Users\Domagoj\Downloads\malter\yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 11
+names:
+- angiodysplasia
+- erosion
+- stenosis
+- lymphangiectasia
+- lymph follicle
+- SMT
+- polyp-like
+- bleeding
+- erythema
+- foreign body
+- vein

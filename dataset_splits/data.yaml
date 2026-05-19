@@ -1,8 +1,5 @@
-
-path: d:\1OSIRV_Projekt\model-comparison-for-lesion-detection
-train: d:\1OSIRV_Projekt\model-comparison-for-lesion-detection\dataset_splits\train.txt
-val: d:\1OSIRV_Projekt\model-comparison-for-lesion-detection\dataset_splits\val.txt
-test: d:\1OSIRV_Projekt\model-comparison-for-lesion-detection\dataset_splits\test.txt
-
-nc: 12
-names: ['class_0', 'class_1', 'class_2', 'class_3', 'class_4', 'class_5', 'class_6', 'class_7', 'class_8', 'class_9', 'class_10', 'class_11']
+train: z:/Zavrsni rad/FInishedProject/dataset_splits/train_absolute.txt
+val: z:/Zavrsni rad/FInishedProject/dataset_splits/val_absolute.txt
+test: z:/Zavrsni rad/FInishedProject/dataset_splits/test_absolute.txt
+nc: 11
+names: ['angiodysplasia', 'erosion', 'stenosis', 'lymphangiectasia', 'lymph follicle', 'SMT', 'polyp-like', 'bleeding', 'erythema', 'foreign body', 'vein']
